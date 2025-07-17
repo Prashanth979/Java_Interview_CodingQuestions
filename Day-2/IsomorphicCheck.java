@@ -5,12 +5,18 @@ import java.util.Map;
 
 public class IsomorphicCheck {
     public static void main(String[] args) {
-        String s="paper";
-        String t="title";
+        String s="paper";//"badc"
+        String t="title";//"kikp"
+        boolean result = isIsomorphic(s,t);
+        if(result){
+            System.out.println("Given strings are Isomorphic");
+        }else{
+            System.out.println("Given strings are Not Isomorphic");
 
+        }
     }
 
-    boolean isIsomorphic(String s, String t){
+    public static boolean isIsomorphic(String s, String t){
         
         if(s.length()!=t.length())
             return false;
