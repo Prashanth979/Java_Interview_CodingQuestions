@@ -1,4 +1,4 @@
-//Program to Find the Index of the First Occurrence in a String	Ex: A = “Hello” B = “HelloWorldHello” o/p: 0
+//Program to Find the Index of the First Occurrence in a String	Ex: A = “Hello” B = “Hello World Hello” o/p: 0
 
 
 public class IndexOfFirstOccurence {
