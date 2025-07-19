@@ -27,6 +27,6 @@ public class ArrayElementIndex {
             System.out.print("]");   
         }
         System.out.println();
-
+        sc.close();
     }
 }
