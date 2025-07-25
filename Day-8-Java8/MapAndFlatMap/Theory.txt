@@ -1,0 +1,5 @@
+🧠 Concept:
+	•	map(): Transforms each element individually and wraps the result.
+👉 Returns a Stream of Streams if each element becomes a stream or collection.
+	•	flatMap(): Flattens the result after transformation.
+👉 Returns a single Stream by merging the inner streams/collections.
